@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
+                <span className="text-white font-bold text-lg">A</span>
               </div>
               <span className="text-xl font-bold bg-hero-gradient bg-clip-text text-transparent">
-                SocialBoost
+                advernics
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">
@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>hello@socialboost.com</span>
+                <span>hello@advernics.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 SocialBoost. All rights reserved.
+              © 2024 advernics. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-muted-foreground">
               <Link to="/privacy-policy" className="hover:text-foreground transition-colors">

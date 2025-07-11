@@ -22,10 +22,10 @@ const Navigation = ({ isSplineInteractive = false, onSplineToggle }: NavigationP
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
+                <span className="text-white font-bold text-lg">A</span>
               </div>
               <span className="text-xl font-bold bg-hero-gradient bg-clip-text text-transparent">
-                SocialBoost
+                advernics
               </span>
             </Link>
             
