@@ -122,7 +122,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-muted-foreground">hello@socialboost.com</p>
+                    <p className="text-muted-foreground">support@advernics.com</p>
                     <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
                   </div>
                 </div>
@@ -133,7 +133,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+44 7877153802</p>
                     <p className="text-sm text-muted-foreground">Mon-Fri 9AM-6PM EST</p>
                   </div>
                 </div>
@@ -144,8 +144,11 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Office</h4>
-                    <p className="text-muted-foreground">123 Marketing Street</p>
-                    <p className="text-muted-foreground">New York, NY 10001</p>
+                    <p className="text-muted-foreground">Apt 12, The Drake Apartments</p>
+                    <p className="text-muted-foreground">390 Evelyn St</p>
+                    <p className="text-muted-foreground">London</p>
+                    <p className="text-muted-foreground">SE8 5BU</p>
+                    <p className="text-muted-foreground">United Kingdom</p>
                   </div>
                 </div>
 

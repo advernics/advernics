@@ -11,7 +11,7 @@ const ShopifyDashboards = () => {
       orders: "3,247",
       conversionRate: "8.2%",
       visitors: "89,450",
-      growth: "+285%",
+      growth: "+45%", 
       metrics: [
         { label: "Social Traffic", value: "65%", change: "+45%" },
         { label: "Instagram Sales", value: "$298,450", change: "+320%" },
@@ -27,7 +27,7 @@ const ShopifyDashboards = () => {
       orders: "2,156",
       conversionRate: "12.4%",
       visitors: "67,280",
-      growth: "+340%",
+      growth: "+60%", 
       metrics: [
         { label: "YouTube Traffic", value: "42%", change: "+78%" },
         { label: "LinkedIn B2B Sales", value: "$425,680", change: "+290%" },
@@ -43,7 +43,7 @@ const ShopifyDashboards = () => {
       orders: "1,890",
       conversionRate: "9.7%",
       visitors: "45,230",
-      growth: "+198%",
+      growth: "+35%", 
       metrics: [
         { label: "Instagram Stories", value: "2.1M", change: "+156%" },
         { label: "Influencer Sales", value: "$145,230", change: "+234%" },

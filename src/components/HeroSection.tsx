@@ -1,4 +1,5 @@
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useCallback } from "react";
+import { useNavigate } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp, Users, Zap } from "lucide-react";
 
@@ -9,6 +10,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({ isSplineInteractive = false }: HeroSectionProps) => {
+  const navigate = useNavigate();
   const onLoad = (spline: any) => {
     // Disable scroll zoom but keep other interactions
     if (spline && spline.setZoom) {
@@ -24,6 +26,13 @@ const HeroSection = ({ isSplineInteractive = false }: HeroSectionProps) => {
       }, { passive: false });
     }
   };
+  const scrollToTestimonials = useCallback(() => {
+    const testimonialsSection = document.getElementById('testimonials');
+    if (testimonialsSection) {
+      testimonialsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       {/* Spline 3D Background */}
@@ -66,7 +75,7 @@ const HeroSection = ({ isSplineInteractive = false }: HeroSectionProps) => {
               </h1>
               
               <p className="text-base text-muted-foreground max-w-xl">
-                500+ brands, $50M+ revenue generated through strategic social media marketing.
+                10+ brands, $2M+ revenue generated through strategic AI Driven social media marketing.
               </p>
             </div>
 
@@ -74,11 +83,11 @@ const HeroSection = ({ isSplineInteractive = false }: HeroSectionProps) => {
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-success-gradient rounded-full"></div>
-                <span className="text-sm font-medium">500+ Happy Clients</span>
+                <span className="text-sm font-medium">40+ Clients</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-success-gradient rounded-full"></div>
-                <span className="text-sm font-medium">$50M+ Revenue Generated</span>
+                <span className="text-sm font-medium">$2M+ Revenue Generated</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-success-gradient rounded-full"></div>
@@ -88,11 +97,21 @@ const HeroSection = ({ isSplineInteractive = false }: HeroSectionProps) => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="xl" className="group">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="group"
+                onClick={() => navigate('/contact')}
+              >
                 Start Your Growth Journey
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="glass" size="xl">
+              <Button 
+                variant="glass" 
+                size="lg"
+                onClick={scrollToTestimonials}
+                className="cursor-pointer"
+              >
                 View Case Studies
               </Button>
             </div>

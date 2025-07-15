@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import StatsSection from "@/components/StatsSection";
@@ -21,7 +22,7 @@ const HomePage = () => {
       <StatsSection />
       <ShopifyDashboards />
       <TestimonialsSection />
-      <SuccessStories />
+      <Link to="/case-studies">case studies</Link>
       <ContactSection />
       <Footer />
     </div>

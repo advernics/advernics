@@ -4,14 +4,14 @@ const StatsSection = () => {
   const stats = [
     {
       icon: DollarSign,
-      value: "$50M+",
+      value: "$2M+",
       label: "Revenue Generated",
       description: "For our clients in 2024",
       gradient: "from-green-500 to-emerald-600"
     },
     {
       icon: Users,
-      value: "10M+",
+      value: "1M+",
       label: "Followers Gained",
       description: "Across all platforms",
       gradient: "from-blue-500 to-cyan-600"

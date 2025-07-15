@@ -1,8 +1,20 @@
+import { useNavigate } from 'react-router-dom';
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Users, DollarSign, Calendar, ExternalLink } from "lucide-react";
 
 const SuccessStories = () => {
+  const navigate = useNavigate();
+  
+  const handleContactClick = () => {
+    navigate('/contact');
+  };
+  
+  const handleViewCaseStudy = (brandName: string) => {
+    // Convert brand name to URL-friendly format (lowercase with hyphens)
+    const id = brandName.toLowerCase().replace(/\s+/g, '-');
+    navigate(`/case-studies/${id}`);
+  };
   const stories = [
     {
       brandName: "Glow Beauty Co.",
@@ -27,7 +39,7 @@ const SuccessStories = () => {
       timeline: "8 months",
       results: {
         followers: "From 5K to 200K",
-        revenue: "$1.5M increase",
+        revenue: "$450K increase",
         engagement: "12.3% avg rate",
         roi: "420% ROI"
       },
@@ -155,6 +167,7 @@ const SuccessStories = () => {
               <Button 
                 variant="outline" 
                 className="w-full group hover:bg-hero-gradient hover:border-transparent hover:text-white"
+                onClick={() => handleViewCaseStudy(story.brandName)}
               >
                 View Full Case Study
                 <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -169,9 +182,14 @@ const SuccessStories = () => {
             <div className="text-center">
               <h3 className="text-xl font-bold mb-2">Ready to Write Your Success Story?</h3>
               <p className="text-muted-foreground mb-4">
-                Join 500+ brands that have transformed their business with our proven strategies.
+                Join 40+ brands that have transformed their business with our proven strategies.
               </p>
-              <Button variant="hero" size="lg">
+              <Button 
+                variant="hero" 
+                size="lg"
+                onClick={handleContactClick}
+                className="cursor-pointer"
+              >
                 Start Your Transformation
               </Button>
             </div>

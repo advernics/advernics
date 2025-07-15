@@ -9,9 +9,9 @@ const TestimonialsSection = () => {
       role: "CEO, FashionForward",
       company: "E-commerce Fashion Brand",
       image: "/placeholder.svg",
-      content: "SocialBoost transformed our Instagram presence completely. We went from 5K to 150K followers in 8 months and our sales increased by 400%. The ROI has been incredible!",
+      content: "SocialBoost significantly improved our Instagram presence. We grew from 5K to 50K followers in 8 months, and our sales increased by 75%. The ROI has been fantastic!", 
       rating: 5,
-      revenue: "+$2.5M",
+      revenue: "+$1M",
       followers: "150K"
     },
     {
@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
       role: "Founder, TechStart",
       company: "SaaS Startup",
       image: "/placeholder.svg",
-      content: "The team's strategic approach to LinkedIn marketing helped us generate 200+ qualified leads per month. Our B2B sales pipeline has never been stronger.",
+      content: "The team's strategic approach to LinkedIn marketing helped us generate over 50 qualified leads per month. Our B2B sales pipeline is much stronger now.", 
       rating: 5,
       revenue: "+$1.8M",
       followers: "85K"
@@ -29,9 +29,9 @@ const TestimonialsSection = () => {
       role: "Marketing Director, LocalEats",
       company: "Restaurant Chain",
       image: "/placeholder.svg",
-      content: "Our TikTok went viral thanks to SocialBoost's content strategy. We now have 500K+ followers and opened 3 new locations due to increased brand awareness.",
+      content: "Our TikTok content strategy from SocialBoost really paid off. We've grown to over 100K followers and seen a great increase in brand awareness.", 
       rating: 5,
-      revenue: "+$3.2M",
+      revenue: "+$1M",
       followers: "500K"
     },
     {
@@ -59,15 +59,15 @@ const TestimonialsSection = () => {
       role: "CEO, EcoHome",
       company: "Sustainable Products",
       image: "/placeholder.svg",
-      content: "The influencer partnerships they arranged brought us massive exposure. Our sustainable products are now recognized nationwide, and sales have tripled.",
+      content: "The influencer partnerships they arranged brought us great exposure. Our sustainable products have seen a significant boost in recognition and sales have doubled.", 
       rating: 5,
-      revenue: "+$2.1M",
+      revenue: "+$200k",
       followers: "120K"
     }
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="testimonials" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">

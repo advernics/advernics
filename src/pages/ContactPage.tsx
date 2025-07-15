@@ -29,17 +29,23 @@ const ContactPage = () => {
             <Card className="p-6 text-center bg-card-gradient border-white/10">
               <Phone className="w-8 h-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Phone</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+44 7877153802</p>
             </Card>
             <Card className="p-6 text-center bg-card-gradient border-white/10">
               <Mail className="w-8 h-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-muted-foreground">hello@socialboost.com</p>
+              <p className="text-muted-foreground">support@advernics.com</p>
             </Card>
             <Card className="p-6 text-center bg-card-gradient border-white/10">
               <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-2">Office</h3>
-              <p className="text-muted-foreground">New York, NY</p>
+              <p className="text-muted-foreground">
+                Apt 12, The Drake Apartments,<br />
+                390 Evelyn St<br />
+                London<br />
+                SE8 5BU<br />
+                United Kingdom
+              </p>
             </Card>
             <Card className="p-6 text-center bg-card-gradient border-white/10">
               <Clock className="w-8 h-8 text-primary mx-auto mb-3" />

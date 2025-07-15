@@ -17,8 +17,8 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">
-              Transforming brands through strategic social media marketing. 
-              Join 500+ businesses that trust us with their growth.
+              Transforming brands through strategic AI driven social media marketing. 
+              Join 40+ businesses that trust us with their growth.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors">
@@ -54,7 +54,6 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link to="/about" className="hover:text-foreground transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-foreground transition-colors">Contact</Link></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Case Studies</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
             </ul>
@@ -66,15 +65,18 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>hello@advernics.com</span>
+                <span>support@advernics.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+44 7877153802</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>New York, NY</span>
+              <div className="flex items-start space-x-2">
+                <MapPin className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                <div>
+                  <div>London, UK</div>
+                  <div className="text-sm text-muted-foreground">SE8 5BU, United Kingdom</div>
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +85,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 advernics. All rights reserved.
+              © 2025 advernics. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-muted-foreground">
               <Link to="/privacy-policy" className="hover:text-foreground transition-colors">

@@ -67,7 +67,7 @@ const AboutPage = () => {
       <section className="pt-24 pb-20 bg-hero-gradient">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-            About SocialBoost
+            About Advernics
           </h1>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             We're not just another social media agency. We're growth partners dedicated 
@@ -86,17 +86,17 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2019, SocialBoost started with a simple mission: help businesses 
+                  Founded in 2025, Advernics started with a simple mission: help businesses 
                   harness the true power of social media to drive real growth and revenue.
                 </p>
                 <p>
                   What began as a small team of passionate marketers has grown into a full-service 
-                  digital agency that has helped over 500 brands achieve extraordinary results. 
-                  We've generated over $50M in revenue for our clients and built a reputation 
+                  digital agency that has helped over 40 brands achieve extraordinary results. 
+                  We've generated over $2M in revenue for our clients and built a reputation 
                   for delivering results that exceed expectations.
                 </p>
                 <p>
-                  Today, we're proud to be one of the fastest-growing social media agencies, 
+                  Today, we're proud to be a growing social media agency, 
                   known for our innovative strategies, transparent communication, and 
                   unwavering commitment to our clients' success.
                 </p>
@@ -106,15 +106,15 @@ const AboutPage = () => {
               <h3 className="text-xl font-bold mb-6">Our Achievements</h3>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">500+</div>
+                  <div className="text-3xl font-bold text-green-400 mb-2">40+</div>
                   <div className="text-sm text-muted-foreground">Happy Clients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-400 mb-2">$50M+</div>
+                  <div className="text-3xl font-bold text-blue-400 mb-2">$2M+</div>
                   <div className="text-sm text-muted-foreground">Revenue Generated</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">10M+</div>
+                  <div className="text-3xl font-bold text-purple-400 mb-2">1M+</div>
                   <div className="text-sm text-muted-foreground">Followers Gained</div>
                 </div>
                 <div className="text-center">

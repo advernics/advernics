@@ -71,6 +71,14 @@ const Navigation = ({ isSplineInteractive = false, onSplineToggle }: NavigationP
               About
             </Link>
             <Link
+              to="/case-studies"
+              className={`text-sm font-medium transition-colors ${
+                isActive("/case-studies") ? "text-primary" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Case Studies
+            </Link>
+            <Link
               to="/contact"
               className={`text-sm font-medium transition-colors ${
                 isActive("/contact") ? "text-primary" : "text-muted-foreground hover:text-foreground"
@@ -78,9 +86,11 @@ const Navigation = ({ isSplineInteractive = false, onSplineToggle }: NavigationP
             >
               Contact
             </Link>
-            <Button variant="hero" size="sm">
-              Get Started
-            </Button>
+            <Link to="/contact">
+              <Button variant="hero" size="sm">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
